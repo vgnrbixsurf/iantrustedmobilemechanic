@@ -145,3 +145,17 @@ input:focus, textarea:focus{border-color: rgba(45,212,191,.45);box-shadow:0 0 0 
   background: transparent !important;
   border: 0 !important;
 }
+
+
+/* --- FORCE CONSISTENT BACKGROUND (kills the band) --- */
+body{
+  background: var(--bg) !important;
+}
+
+/* Safety: remove any section overlays */
+.section,
+.section--alt,
+.hero{
+  background: transparent !important;
+  border: 0 !important;
+}
